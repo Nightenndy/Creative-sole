@@ -1,0 +1,132 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #bebebe;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 180px;
+  border-bottom: solid 1px #2d2d2d;
+  border-top: solid 1px #2d2d2d;
+}
+
+.header .header-logo {
+  margin: 20px 150px;
+}
+
+.text-logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+  color: #2d2d2d;
+  text-shadow: 2px 2px 3px #2d2d2d;
+}
+
+.wrapp {
+  display: inline-block;
+  margin: 20px 150px;
+}
+
+.wrapp .header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2d2d2d;
+}
+
+.wrapp .header-menu a {
+  text-decoration: none;
+  margin: 80px 10px;
+  color: #2d2d2d;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #2d2d2d;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.wrapp .header-menu a:hover {
+  color: #007acc;
+  text-shadow: 1px 2px 3px #2d2d2d;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main {
+  margin: 20px 20px;
+}
+
+main .about-us {
+  margin: 50px 100px;
+}
+
+main .about-us .title-about {
+  margin: 0 80px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  text-shadow: 1px 1px 5px #2d2d2d;
+}
+
+main .about-us .container-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .about-us .container-about .text-about {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 80px;
+}
+
+main .about-us .container-about .img-about {
+  width: 400px;
+  height: 370px;
+  margin: 50px 0;
+  border-radius: 10px;
+}
+
+@media (max-width: 1199.8px) and (min-width: 992px) {
+  .header .header-logo {
+    margin: 15px 50px;
+  }
+  .text-logo {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 991.8px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .text-logo {
+    font-size: 2.5rem;
+  }
+}

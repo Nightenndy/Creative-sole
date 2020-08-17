@@ -1,0 +1,33 @@
+main {
+  margin: 20px 20px;
+
+  .about-us {
+    margin: 50px 100px;
+
+    .title-about {
+      margin: 0 80px;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #2d2d2d;
+      text-shadow: 1px 1px 5px #2d2d2d;
+    }
+
+    .container-about {
+      display: flex;
+
+      .text-about {
+        font-family: $font-primary;
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin: 80px;
+      }
+
+      .img-about {
+        width: 400px;
+        height: 370px;
+        margin: 50px 0;
+        border-radius: 10px;
+      }
+    }
+  }
+}
